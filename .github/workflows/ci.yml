@@ -25,7 +25,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Run unit tests with coverage
-        run: ./gradlew testDebugUnitTestCoverage
+        run: ./gradlew testDebugUnitTest
 
       - name: Upload test report
         uses: actions/upload-artifact@v4
